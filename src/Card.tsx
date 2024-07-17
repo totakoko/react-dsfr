@@ -227,6 +227,7 @@ export const Card = memo(
                                 className={cx(fr.cx("fr-responsive-img"), classes.imgTag)}
                                 src={imageUrl}
                                 alt={imageAlt}
+                                loading="lazy"
                             />
                         </div>
                         {badge !== undefined && (
